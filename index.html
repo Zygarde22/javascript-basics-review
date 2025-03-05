@@ -6,11 +6,39 @@
 </head>
 
 <body>
-    <h2>Welcome To GFG</h2>
-    <p>
-        Default code has been
-        loaded into the Editor.
-    </p>
+    <h2>This is to show off JavaScript Basics</h2>
+    
+
+    <h3>Variables.js Output:</h3>
+    <div id="variables-output"></div> <!-- This will display variables output -->
+
+    <h3>Object.js Output:</h3>
+    <div id="object-output"></div> <!-- This will display object properties -->
+
+    <!-- Link to your JavaScript files -->
+    <script src="variables.js"></script>
+    <script src="object.js"></script>
+
+    <script>
+        // Using variables from variables.js
+        document.getElementById("variables-output").innerHTML = `
+            <p>Sum from variables.js: ${sum}</p>
+            <p>Difference from variables.js: ${difference}</p>
+            <p>Product from variables.js: ${product}</p>
+            <p>Quotient from variables.js: ${quotient}</p>
+            <p>Remainder from variables.js: ${remainder}</p>
+            <p>Exponentiation from variables.js: ${exponent}</p>
+        `;
+
+        // Using object from object.js
+        document.getElementById("object-output").innerHTML = `
+            <p>Name: ${person.name}</p>
+            <p>Age: ${person.age}</p>
+            <p>Is Student: ${person.isStudent}</p>
+            <p>Favorite Colors: ${person.favoriteColors.join(", ")}</p>
+            <p>Hobbies: ${person.hobbies.join(", ")}</p>
+        `;
+    </script>
 </body>
 
 </html>
