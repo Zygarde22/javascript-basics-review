@@ -50,3 +50,34 @@ let myNullValue = null;
 console.log(myNullValue); 
 console.log(typeof myNullValue);
 
+//array//
+let myArray = ["Playstation", "Switch", "Xbox Series X"];
+console.log(myArray);
+console.log(typeof myArray);
+
+//undefined//
+let myUndefined;
+console.log(myUndefined);  
+console.log(typeof myUndefined); 
+
+//Logical Operators
+
+let condition1 = true;
+let condition2 = false;
+
+console.log(condition1 && condition2);
+
+console.log(condition1 || condition2); 
+
+console.log(!condition1);
+
+///Comparison Operators//
+
+console.log(10 == "10");  
+console.log(10 === "10"); 
+console.log(10 != "10"); 
+console.log(10 !== "10"); 
+console.log(10 > 5);  
+console.log(10 < 5);   
+console.log(10 >= 10);    
+console.log(10 <= 9);     
