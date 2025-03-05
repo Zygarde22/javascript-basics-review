@@ -20,3 +20,13 @@ person.isStudent = true;
 
 console.log(person.age);     
 console.log(person.isStudent);  
+
+
+let propertyName = "name";
+console.log(person[propertyName]);  
+
+propertyName = "age";
+console.log(person[propertyName]); 
+
+propertyName = "isStudent";
+console.log(person[propertyName]); 
